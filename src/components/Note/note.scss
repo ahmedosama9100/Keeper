@@ -1,0 +1,33 @@
+@mixin note {
+    margin-bottom: 10px;
+}
+.note-container {
+    box-shadow: 0 2px 5px #ccc;
+    background-color: white;
+    font-family: inherit;
+    float: left;
+    width: 250px;
+    border-radius: 7px;
+    margin: 15px;
+    padding: 10px;
+    .note-title,
+    .note-content {
+        @include note;
+    }
+    .note-title {
+        font-size: 1.2rem;
+    }
+    .note-content {
+        font-size: 1.1rem;
+    }
+    .delete-note {
+        background-color: white;
+        color: #f5ba13;
+        float: right;
+        cursor: pointer;
+        border: none;
+        margin-right: 7px;
+        width: 30px;
+        height: 30px;
+    }
+}
