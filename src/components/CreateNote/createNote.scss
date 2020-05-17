@@ -29,13 +29,17 @@
     }
     .add-note {
         background-color: #f5ba13;
+        position: absolute;
         color: white;
         border: none;
         cursor: pointer;
         border-radius: 100%;
-        width: 30px;
-        height: 30px;
-        position: absolute;
+        width: 40px;
+        height: 40px;
         right: 15px;
+        bottom: -20px;
+        &:hover {
+            background-color: #96aeff;
+        }
     }
 }
