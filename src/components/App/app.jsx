@@ -5,10 +5,13 @@ import Note from "./../Note/Note";
 import Footer from "./../Footer/Footer";
 
 export default function App() {
+  function postNote(fullNote) { // receive data that send from CreateNote component
+    console.log(fullNote);
+  }
   return (
     <React.Fragment>
       <Header />
-      <CreateNote />
+      <CreateNote postNote={postNote} />
       <Note />
       <Footer />
     </React.Fragment>
