@@ -1,0 +1,41 @@
+@mixin note-text {
+    font-family: inherit;
+    display: block;
+    border: none;
+    outline: none;
+    resize: none;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.create-note {
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+    background-color: white;
+    position: relative;
+    margin: 20px auto;
+    width: 500px;
+    border-radius: 7px;
+    padding: 15px;
+    .note-title,
+    .note-content {
+        @include note-text;
+    }
+    .note-title {
+        font-size: 1.3rem;
+        font-weight: 200;
+    }
+    .note-content {
+        font-size: 1.2rem;
+    }
+    .add-note {
+        background-color: #f5ba13;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 15px;
+    }
+}

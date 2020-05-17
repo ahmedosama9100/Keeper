@@ -1,0 +1,41 @@
+.create-note {
+  box-shadow: 0 1px 5px #8a8989;
+  background-color: white;
+  position: relative;
+  margin: 20px auto;
+  width: 500px;
+  border-radius: 7px;
+  padding: 15px;
+}
+
+.create-note .note-title,
+.create-note .note-content {
+  font-family: inherit;
+  display: block;
+  border: none;
+  outline: none;
+  resize: none;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.create-note .note-title {
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+
+.create-note .note-content {
+  font-size: 1.2rem;
+}
+
+.create-note .add-note {
+  background-color: #f5ba13;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 15px;
+}
