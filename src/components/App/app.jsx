@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./../Header/Header";
 import CreateNote from "./../CreateNote/CreateNote";
 import Note from "./../Note/Note";
+import Footer from "./../Footer/Footer";
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Header />
       <CreateNote />
       <Note />
+      <Footer />
     </React.Fragment>
   );
 }
