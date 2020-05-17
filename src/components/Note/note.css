@@ -33,3 +33,7 @@
   width: 30px;
   height: 30px;
 }
+
+.note-container .delete-note:hover {
+  color: #96aeff;
+}
