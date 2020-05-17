@@ -26,9 +26,10 @@
 .note-container .delete-note {
   background-color: white;
   color: #f5ba13;
-  float: right;
   cursor: pointer;
+  float: right;
   border: none;
+  outline: none;
   margin-right: 7px;
   width: 30px;
   height: 30px;
