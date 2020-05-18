@@ -36,3 +36,11 @@
         }
     }
 }
+
+@media (max-width: 580px) {
+    .note-container {
+        width: 80%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
