@@ -1,4 +1,5 @@
 # Keeper
+# on Laptop
 ### Home page 
 ![Home page](images/homePage.png)
 ***********************
@@ -10,3 +11,13 @@
 ***********************
 ### Delete Note
 ![Create Note](images/deleteNote.png)
+*************************
+# on Mobile 
+### Home page 
+![Home page on mobile](images/IMG_20200518_112456.jpg)
+***********************
+
+
+
+
+
